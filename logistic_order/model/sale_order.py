@@ -48,7 +48,7 @@ class SaleOrder(models.Model):
              "list process (Shipping Exception).\nThe 'Waiting Schedule' "
              "status is set when the invoice is confirmed but waiting for the "
              "scheduler to run on the order date.",
-        select=True)
+        index=True)
 
     # incoterm is overridden to add states
     incoterm = fields.Many2one(

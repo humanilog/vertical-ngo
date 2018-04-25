@@ -110,7 +110,7 @@ class LogisticsRequisition(models.Model):
         'res.country',
         string='Country',
         states=REQ_STATES,
-        select=True)
+        index=True)
     company_id = fields.Many2one(
         'res.company',
         'Company',

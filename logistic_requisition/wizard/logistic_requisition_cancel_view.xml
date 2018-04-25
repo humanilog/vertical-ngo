@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-    <data noupdate="0">
+    <noupdate="0">
         <record id="view_logistic_requisition_cancel" model="ir.ui.view">
             <field name="name">Reason for the cancellation</field>
             <field name="model">logistic.requisition.cancel</field>
@@ -34,6 +34,4 @@
             <field name="view_id" ref="view_logistic_requisition_cancel"/>
             <field name="target">new</field>
         </record>
-    </data>
 </openerp>
-

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-    <data noupdate="0">
+    <noupdate="0">
         <record id="view_logistic_requisition_line_assign_wizard" model="ir.ui.view">
             <field name="name">Assign Requisition Line</field>
             <field name="model">logistic.requisition.line.assign</field>
@@ -37,5 +37,4 @@
             key2="client_action_multi"
             id="act_window_requisition_line_assign"/>
 
-    </data>
 </openerp>

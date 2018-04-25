@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-  <data noupdate="0">
+  <noupdate="0">
 
     <record model="ir.ui.view" id="purchase_order_form">
       <field name="name">purchase_order_form</field>
@@ -9,9 +9,9 @@
       <field name="arch" type="xml">
         <field name="portfolio_id" position="after">
           <field name="for_agreement"/>
-          <field name="agreement_expected_date" 
+          <field name="agreement_expected_date"
             attrs="{'invisible': [('for_agreement', '=', False)]}" />
-          <field name="agreement_promised_date" 
+          <field name="agreement_promised_date"
             attrs="{'invisible': [('for_agreement', '=', False)]}" />
         </field>
       </field>
@@ -34,5 +34,4 @@
       </field>
     </record>
 
-  </data>
 </openerp>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-  <data noupdate="0">
+  <noupdate="0">
 
     <menuitem name="Order Management"
           id="menu_order"
@@ -227,5 +227,4 @@
       </field>
     </record>
 
-  </data>
 </openerp>

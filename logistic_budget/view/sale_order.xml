@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-  <data noupdate="0">
+  <noupdate="0">
 
     <record model="ir.ui.view" id="view_order_line_form">
       <field name="name">view_order_line_form</field>
@@ -80,5 +80,4 @@
       </field>
     </record>
 
-  </data>
 </openerp>
