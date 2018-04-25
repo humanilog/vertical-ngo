@@ -1,6 +1,8 @@
 # list the OCA project dependencies, one per line
 # add a github url and branch if you need a forked version
-department
+# department
+# TODO - this was discontinue in version 9, we need to find the proper replacements
+# it seems that this is only used in logistic_requisition_department 
 purchase-workflow
 sale-workflow
 stock-logistics-workflow
